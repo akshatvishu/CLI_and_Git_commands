@@ -1,3 +1,5 @@
+Refs: [Git_sheet](https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh)
+
 # CLI_and_Git_commands
 - Repo for uselfull command in git and CLI for me! 
 
