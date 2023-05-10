@@ -9,3 +9,8 @@ git diff --name-only <name_of_branch_to_compare>
 ```py
 git stash list --date=short
 ```
+### Fancy Git log:
+```
+git log --all --oneline --graph --decorate
+
+```
