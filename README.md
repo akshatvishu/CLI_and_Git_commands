@@ -1,4 +1,9 @@
 Refs: [Git_sheet](https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh)
+- In case of pytest discovery error:
+```py
+pytest --collect-only
+```
+refs: [stackoverflow](https://stackoverflow.com/questions/55837922/vscode-pytest-test-discovery-fails)
 
 # CLI_and_Git_commands
 - Repo for uselfull command in git and CLI for me! 
