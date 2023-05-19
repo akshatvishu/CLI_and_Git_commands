@@ -31,3 +31,7 @@ git stash push -m "describe_the_stash"
 git log --all --oneline --graph --decorate
 
 ```
+### View a file content:
+```py
+git show <branch_name>:<file_name>
+```
