@@ -35,3 +35,7 @@ git log --all --oneline --graph --decorate
 ```py
 git show <branch_name>:<file_name>
 ```
+### Run pre-commit for a file:
+```py
+pre-commit run --files <path-to-file>
+```
