@@ -6,12 +6,13 @@ can set a breakpoint by adding the line `import pdb`; `pdb.set_trace()` at the p
 Run your code: Run your code as you normally would. When the code reaches the breakpoint, it will pause execution and enter the debugger.
 
 Step through the code: Once you are in the debugger, you can use various commands to step through your code. Some common commands include:
-
+```text
 n: Execute the next line of code.
 c: Continue execution until the next breakpoint.
 q: Quit the debugger.
 p: Print the value of an expression.
 ll: List the source code for the current function or frame.
+```
 ```
 - In case of pytest discovery error:
 ```py
