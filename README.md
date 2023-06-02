@@ -13,8 +13,7 @@ q: Quit the debugger.
 p: Print the value of an expression.
 ll: List the source code for the current function or frame.
 ```
-```
-- In case of pytest discovery error:
+### In case of pytest discovery error:
 ```py
 pytest --collect-only
 ```
