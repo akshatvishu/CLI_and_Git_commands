@@ -19,6 +19,12 @@ pytest --collect-only
 ```
 refs: [stackoverflow](https://stackoverflow.com/questions/55837922/vscode-pytest-test-discovery-fails)
 
+### Update Array_API:
+
+You can go inside the `/ivy_tests/array_api_testing/test_array_api`
+```py
+ git submodule update --remote
+```
 # CLI_and_Git_commands
 - Repo for uselfull command in git and CLI for me! 
 
