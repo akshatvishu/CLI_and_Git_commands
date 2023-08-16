@@ -21,7 +21,7 @@ refs: [stackoverflow](https://stackoverflow.com/questions/55837922/vscode-pytest
 
 ### Update Array_API:
 
-You can go inside the `/ivy_tests/array_api_testing/test_array_api`
+You can go inside the `ivy_tests/array_api_testing/test_array_api`
 ```py
  git submodule update --remote
 ```
