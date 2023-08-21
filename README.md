@@ -1,5 +1,18 @@
 Refs: [Git_sheet](https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh)
+### Clean your Docker:
+```py
+# check how space is getting used:
+docker system df
 
+# check how much space is getting used by `dangling images`:
+docker images -f dangling=true # -f = filter
+
+# run the command below to remove `dangling` as well as `unused` images
+docker image prune -a # removing the -a flag will just prune `dangling`
+```
+refs:
+- <https://stackoverflow.com/questions/53221412/why-the-none-image-appears-in-docker-and-how-can-we-avoid-it/53224187#53224187>
+- <https://stackoverflow.com/questions/45142528/what-is-a-dangling-image-and-what-is-an-unused-image>
 ### How to run pdb:
 can set a breakpoint by adding the line `import pdb`; `pdb.set_trace()` at the point in your code where you want the debugger to pause.
 
