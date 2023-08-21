@@ -1,7 +1,7 @@
 Refs: [Git_sheet](https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh)
-### Clean your Docker:
+### Clean your Docker (check it weekly ):
 ```py
-# check how space is getting used:
+# check how much space is getting used:
 docker system df
 
 # check how much space is getting used by `dangling images`:
