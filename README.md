@@ -72,3 +72,14 @@ git show <branch_name>:<file_name>
 ```py
 pre-commit run --files <path-to-file>
 ```
+
+### Running VPN(mullvad) via openvpn CLI :
+```py
+
+cd /etc/openvpn/
+sudo openvpn --config /etc/openvpn/mullvad_gb_all.conf # Change "_gb_all" with whatever region you like
+curl https://am.i.mullvad.net/connected # check for connection! 
+
+
+```
+
