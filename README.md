@@ -102,17 +102,13 @@ Merge the changes into your main branch:
  After fetching the changes, you can merge the upstream's main branch into your local main branch:
 
 ```bash
-
-    git merge upstream/main
+git merge upstream/main
 ```
 
 Push the updated main branch to your fork:Once you have merged the changes locally, you might want to update your fork on GitHub to reflect these changes. You can do this by pushing your main branch to the origin (your fork):
 
 ```bash
-
 git push origin main
 ```
 
-
-```
 
