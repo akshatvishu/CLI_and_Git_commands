@@ -78,7 +78,40 @@ pre-commit run --files <path-to-file>
 
 cd /etc/openvpn/
 sudo openvpn --config /etc/openvpn/mullvad_gb_all.conf # Change "_gb_all" with whatever region you like
-curl https://am.i.mullvad.net/connected # check for connection! 
+curl https://am.i.mullvad.net/connected # check for connection!
+```
+
+### Update your main with latest changes from upstream:
+
+To pull the latest changes from the upstream remote repository into your fork's main branch, you should follow these steps:
+Fetch the changes from the upstream repository:
+First, ensure you're on your main branch:
+
+```bash
+git checkout main
+```
+
+Then, fetch the changes from the upstream repository (which in your case is the original repository from Google):
+
+
+ ```bash
+git fetch upstream
+```  
+
+Merge the changes into your main branch:
+ After fetching the changes, you can merge the upstream's main branch into your local main branch:
+
+```bash
+
+    git merge upstream/main
+```
+
+Push the updated main branch to your fork:Once you have merged the changes locally, you might want to update your fork on GitHub to reflect these changes. You can do this by pushing your main branch to the origin (your fork):
+
+```bash
+
+git push origin main
+```
 
 
 ```
