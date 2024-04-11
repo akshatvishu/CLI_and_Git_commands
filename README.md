@@ -111,4 +111,21 @@ Push the updated main branch to your fork:Once you have merged the changes local
 git push origin main
 ```
 
+### Temporian Operator Instructions:
+```md
+(temporian-py3.9) [aja@archlinuxvi temporian]$ tools/create_operator.py --operator z_score_normalize
+Don't forget to update the following code:
+ 1. The imports in the top-level init file temporian/__init__.py (if global)
+ 2. The EventSetOperations class in temporian/core/event_set_ops.py (if not global)
+ 3. Move the docstring from the operator's .py file to the EventSetOperations class (if not global)
+ 4. The imports in temporian/implementation/numpy/operators/__init__.py
+ 5. The "operators" py_library in temporian/implementation/numpy/operators/BUILD
+ 6. The "test_base" function in temporian/core/test/registered_operators_test.py
+ 7. The "test_base" function in temporian/implementation/numpy/test/registered_operators_test.py
+ 8. The PUBLIC_API_SYMBOLS set in temporian/test/public_api_test.py (if global)
+ 9. The .md file in docs/src/reference/temporian/operators
+10. The docs API ref's home page docs/src/reference/index.md
+11. Write unit tests in temporian/core/operators/test
+12. Once your op is implemented, run `python tools/build_cleaner.py` and fix Bazel dependencies
+```
 
