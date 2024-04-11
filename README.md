@@ -113,7 +113,7 @@ git push origin main
 
 ### Temporian Operator Instructions:
 ```md
-(temporian-py3.9) [aja@archlinuxvi temporian]$ tools/create_operator.py --operator z_score_normalize
+(temporian-py3.9) [temporian]$ tools/create_operator.py --operator z_score_normalize
 Don't forget to update the following code:
  1. The imports in the top-level init file temporian/__init__.py (if global)
  2. The EventSetOperations class in temporian/core/event_set_ops.py (if not global)
